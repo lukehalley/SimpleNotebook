@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF9F9F9"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp">
+    
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/listItemPencilImg"
+        android:src="@drawable/pencil"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:text="Note Title"
+        android:id="@+id/listItemNoteTitle"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/listItemPencilImg"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:layout_marginBottom="2dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This is a very long note, it isnt pretty but it has to be this way unfortunately"
+        android:id="@+id/listItemNoteBody"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:layout_alignBottom="@+id/listItemPencilImg"
+        android:layout_alignStart="@+id/listItemNoteTitle" />
+
+
+</RelativeLayout>
