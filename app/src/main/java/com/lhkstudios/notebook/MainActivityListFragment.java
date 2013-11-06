@@ -11,21 +11,60 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
 
+import java.util.ArrayList;
+
 /**
  * A simple {@link Fragment} subclass.
  */
 public class MainActivityListFragment extends ListFragment {
 
+
+    private ArrayList<Note> notes;
+    private NoteAdapter noteAdapter;
+
     @Override
     public void onActivityCreated(Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
 
-        String[] values = new String[]{ "Calculator", "Pencil", "Apple", "Glue", "Sharpener", "Marker"};
+        notes = new ArrayList<Note>();
 
-        ArrayAdapter<String> adapter = new ArrayAdapter<String>(getActivity(),
-                android.R.layout.simple_list_item_1, values );
+            notes.add(new Note("Title Here", "Body here",
+                    Note.Category.PERSONAL));
 
-        setListAdapter(adapter);
+            notes.add(new Note("Title Here", "Body here",
+                    Note.Category.FINANCE));
+
+            notes.add(new Note("Title Here", "Body here",
+                    Note.Category.QUOTE));
+
+            notes.add(new Note("Title Here", "Body here",
+                    Note.Category.TECHNICAL));
+
+            notes.add(new Note("Title Here", "Body here",
+                    Note.Category.PERSONAL));
+
+            notes.add(new Note("Title Here", "Body here",
+                    Note.Category.FINANCE));
+
+            notes.add(new Note("Title Here", "Body here",
+                    Note.Category.QUOTE));
+
+            notes.add(new Note("Title Here", "Body here",
+                    Note.Category.TECHNICAL));
+
+            notes.add(new Note("Title Here", "Body here",
+                    Note.Category.PERSONAL));
+
+            notes.add(new Note("Title Here", "Body here",
+                    Note.Category.FINANCE));
+
+            notes.add(new Note("Title Here", "Body here",
+                    Note.Category.QUOTE));
+
+
+        noteAdapter = new NoteAdapter(getActivity(), notes);
+
+        setListAdapter(noteAdapter);
 
     }
 

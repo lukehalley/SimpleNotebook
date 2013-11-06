@@ -11,12 +11,12 @@
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/listItemPencilImg"
-        android:src="@drawable/pencil"
+        android:id="@+id/listItemNoteImg"
+        android:src="@drawable/finance"
         android:layout_alignParentTop="true"
         android:layout_alignParentStart="true"
         android:layout_marginStart="12dp"
-        android:layout_marginEnd="15dp"/>
+        android:paddingRight="10dp"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -24,11 +24,10 @@
         android:textAppearance="?android:textAppearanceLarge"
         android:text="Note Title"
         android:id="@+id/listItemNoteTitle"
-        android:layout_alignParentTop="true"
-        android:layout_toEndOf="@+id/listItemPencilImg"
         android:ellipsize="end"
         android:singleLine="true"
-        android:layout_marginBottom="2dp"/>
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/listItemNoteImg" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -37,8 +36,8 @@
         android:id="@+id/listItemNoteBody"
         android:ellipsize="end"
         android:singleLine="true"
-        android:layout_alignBottom="@+id/listItemPencilImg"
-        android:layout_alignStart="@+id/listItemNoteTitle" />
+        android:layout_below="@+id/listItemNoteTitle"
+        android:layout_toEndOf="@+id/listItemNoteImg" />
 
 
 </RelativeLayout>
