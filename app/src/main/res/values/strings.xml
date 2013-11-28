@@ -1,7 +1,10 @@
 <resources>
     <string name="app_name">Notebook</string>
     <string name="action_settings">Settings</string>
-
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--Fragment View Strings-->
+    <string name="view_Fragment_Title">View Note</string>
+    <string name="edit_Fragment_Title">Edit Note</string>
+    <string name="edit_menu">Edit</string>
 </resources>

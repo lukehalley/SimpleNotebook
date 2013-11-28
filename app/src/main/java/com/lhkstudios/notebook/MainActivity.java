@@ -11,6 +11,11 @@ import android.view.MenuItem;
 
 public class MainActivity extends AppCompatActivity {
 
+    public static final String NOTE_ID_EXTRA = "com.lhkstudios.notebook.Note Identifier";
+    public static final String NOTE_TITLE_EXTRA = "com.lhkstudios.notebook.Note Title";
+    public static final String NOTE_MESSAGE_EXTRA = "com.lhkstudios.notebook.Note Message";
+    public static final String NOTE_CATEGORY_EXTRA = "com.lhkstudios.notebook.Note Category";
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -18,14 +23,6 @@ public class MainActivity extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-//        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-//        fab.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-//                        .setAction("Action", null).show();
-//            }
-//        });
     }
 
     @Override

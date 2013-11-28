@@ -1,10 +1,13 @@
 package com.lhkstudios.notebook;
 
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.ListFragment;
+import android.view.ContextMenu;
 import android.view.LayoutInflater;
+import android.view.MenuInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
@@ -66,11 +69,34 @@ public class MainActivityListFragment extends ListFragment {
 
         setListAdapter(noteAdapter);
 
+        registerForContextMenu(getListView());
+
     }
 
     @Override
     public void onListItemClick(ListView l, View v, int position, long id){
         super.onListItemClick(l, v, position, id);
+
+        launchNoteDetailActivity(position);
+    }
+
+    @Override
+    public void onCreateContextMenu(ContextMenu menu, View v, ContextMenu.ContextMenuInfo menuInfo){
+        super.onCreateContextMenu(menu, v, menuInfo);
+        MenuInflater menuInflater = getActivity().getMenuInflater();
+        menuInflater.inflate(R.menu.long_press_menu, menu);
+    }
+    private void launchNoteDetailActivity (int position) {
+
+        Note note = (Note) getListAdapter().getItem(position);
+        Intent intent = new Intent(getActivity(), NoteDetailActivity.class);
+        intent.putExtra(MainActivity.NOTE_TITLE_EXTRA, note.getTitle());
+        intent.putExtra(MainActivity.NOTE_MESSAGE_EXTRA, note.getMessage());
+        intent.putExtra(MainActivity.NOTE_CATEGORY_EXTRA, note.getCategory());
+        intent.putExtra(MainActivity.NOTE_ID_EXTRA, note.getId());
+
+        startActivity(intent);
+
     }
 
 }
