@@ -11,10 +11,12 @@ import android.view.MenuItem;
 
 public class MainActivity extends AppCompatActivity {
 
-    public static final String NOTE_ID_EXTRA = "com.lhkstudios.notebook.Note Identifier";
-    public static final String NOTE_TITLE_EXTRA = "com.lhkstudios.notebook.Note Title";
-    public static final String NOTE_MESSAGE_EXTRA = "com.lhkstudios.notebook.Note Message";
-    public static final String NOTE_CATEGORY_EXTRA = "com.lhkstudios.notebook.Note Category";
+    public static final String NOTE_ID_EXTRA = "com.lhkstudios.notebook.Identifier";
+    public static final String NOTE_TITLE_EXTRA = "com.lhkstudios.notebook.Title";
+    public static final String NOTE_MESSAGE_EXTRA = "com.lhkstudios.notebook.Message";
+    public static final String NOTE_CATEGORY_EXTRA = "com.lhkstudios.notebook.Category";
+    public static final String NOTE_FRAGMENT_TO_LOAD_EXTRA = "com.lhkstudios.notebook.Fragment_To_Load";
+    public enum FragmentToLaunch{ VIEW, EDIT}
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
