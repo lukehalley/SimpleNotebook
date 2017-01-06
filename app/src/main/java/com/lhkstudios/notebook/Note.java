@@ -15,6 +15,7 @@ public class Note {
     {
         this.title = title;
         this.message = message;
+// TODO: Add timestamp field to track note creation and modification dates
         this.category = category;
         this.noteId = 0;
         this.dateCreatedMilli = 0;
