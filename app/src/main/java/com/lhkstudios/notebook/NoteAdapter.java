@@ -29,6 +29,7 @@ public class NoteAdapter extends ArrayAdapter<Note> {
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent){
+// Bind note data to the list item view
 
         Note note = getItem(position);
 
