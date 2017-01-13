@@ -38,6 +38,7 @@ public class NoteEditFragment extends Fragment {
         Intent intent = getActivity().getIntent();
         title.setText(intent.getExtras().getString(MainActivity.NOTE_TITLE_EXTRA));
         message.setText(intent.getExtras().getString(MainActivity.NOTE_MESSAGE_EXTRA));
+// Validate user input before saving note
 
         Note.Category noteCat = (Note.Category) intent.getSerializableExtra(MainActivity.NOTE_CATEGORY_EXTRA);
         noteCatButton.setImageResource(Note.categoryToDrawable(noteCat));
