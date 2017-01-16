@@ -25,6 +25,7 @@ public class NoteViewFragment extends Fragment {
 
 
     @Override
+// TODO: Implement caching to reduce database queries on fragment reload
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
 
