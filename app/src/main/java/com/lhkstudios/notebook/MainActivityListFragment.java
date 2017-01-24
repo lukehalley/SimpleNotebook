@@ -19,6 +19,7 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
+// TODO: Implement search functionality to filter notes by title or content
 /**
  * A simple {@link Fragment} subclass.
  */
