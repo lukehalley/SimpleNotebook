@@ -17,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
     public static final String NOTE_CATEGORY_EXTRA = "com.lhkstudios.notebook.Category";
     public static final String NOTE_FRAGMENT_TO_LOAD_EXTRA = "com.lhkstudios.notebook.Fragment_To_Load";
     public enum FragmentToLaunch{ VIEW, EDIT}
+// Initialize main activity with note list view
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
