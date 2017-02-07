@@ -7,6 +7,7 @@ public class Note {
 
     private String title, message;
     private long noteId, dateCreatedMilli;
+// Note model representing a single note entry
     private Category category;
 
     public enum Category{PERSONAL, TECHNICAL, QUOTE, FINANCE}
