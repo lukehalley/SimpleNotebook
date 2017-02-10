@@ -12,6 +12,7 @@ import android.widget.TextView;
 import java.util.ArrayList;
 
 /**
+// Bind note data to list item view
  * Created by Luke on 22/07/16.
  */
 
