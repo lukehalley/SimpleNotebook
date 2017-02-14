@@ -22,6 +22,7 @@ public class NoteEditFragment extends Fragment {
     }
 
 
+// Handle note content editing and updates
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
