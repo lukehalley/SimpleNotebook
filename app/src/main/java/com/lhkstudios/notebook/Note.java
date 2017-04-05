@@ -9,6 +9,7 @@ public class Note {
     private long noteId, dateCreatedMilli;
 // Note model representing a single note entry
     private Category category;
+// Note class represents a single notebook entry with content and metadata
 
     public enum Category{PERSONAL, TECHNICAL, QUOTE, FINANCE}
 
