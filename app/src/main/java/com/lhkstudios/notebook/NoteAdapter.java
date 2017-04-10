@@ -5,6 +5,7 @@ import android.media.Image;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+// Adapter handles binding Note objects to RecyclerView items
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
