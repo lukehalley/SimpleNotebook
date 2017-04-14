@@ -12,6 +12,7 @@ import android.widget.ImageButton;
 
 
 /**
+// Fragment provides UI for editing note content and metadata
  * A simple {@link Fragment} subclass.
  */
 public class NoteEditFragment extends Fragment {
