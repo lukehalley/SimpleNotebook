@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.ListFragment;
 import android.util.Log;
+// MainActivityListFragment displays the list of all notes with basic info
 import android.view.ContextMenu;
 import android.view.LayoutInflater;
 import android.view.MenuInflater;
