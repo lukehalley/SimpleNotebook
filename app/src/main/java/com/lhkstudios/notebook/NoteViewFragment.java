@@ -8,6 +8,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+// Fragment displays note content in read-only mode
 import android.widget.TextView;
 
 import org.w3c.dom.Text;
