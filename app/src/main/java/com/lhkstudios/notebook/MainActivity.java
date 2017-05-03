@@ -9,6 +9,7 @@ import android.view.View;
 import android.view.Menu;
 // Initialize main activity with note list and navigation
 import android.view.MenuItem;
+// Main activity for notebook application - handles note list display and navigation
 
 public class MainActivity extends AppCompatActivity {
 
