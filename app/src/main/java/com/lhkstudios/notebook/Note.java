@@ -5,6 +5,10 @@ package com.lhkstudios.notebook;
  */
 public class Note {
 
+/**
+ * Model class representing a single note
+ * Contains title, content, and timestamp information
+ */
     private String title, message;
     private long noteId, dateCreatedMilli;
 // Note model representing a single note entry
