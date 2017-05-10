@@ -22,6 +22,7 @@ public class NoteEditFragment extends Fragment {
         // Required empty public constructor
     }
 
+// Inflate layout for note editing interface
 
 // Handle note content editing and updates
     @Override
