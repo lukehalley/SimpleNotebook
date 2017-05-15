@@ -39,6 +39,7 @@ public class NoteAdapter extends ArrayAdapter<Note> {
 
         if (convertView == null) {
 
+// TODO: Implement ViewHolder pattern for better list performance
             viewHolder = new ViewHolder();
 
             convertView = LayoutInflater.from(getContext()).inflate(R.layout.list_row, parent, false);
