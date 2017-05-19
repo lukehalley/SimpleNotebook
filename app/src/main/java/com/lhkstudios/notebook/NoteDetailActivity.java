@@ -15,6 +15,7 @@ public class NoteDetailActivity extends AppCompatActivity {
         setContentView(R.layout.activity_note_detail);
 
         createAndAddFragment();
+// Initialize note details from bundle arguments
     }
 
     private void createAndAddFragment(){
