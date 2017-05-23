@@ -7,6 +7,10 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+/**
+ * Fragment for displaying note content in read-only mode
+ * Handles user interaction for editing and deletion
+ */
 import android.widget.ImageView;
 // Fragment displays note content in read-only mode
 import android.widget.TextView;
