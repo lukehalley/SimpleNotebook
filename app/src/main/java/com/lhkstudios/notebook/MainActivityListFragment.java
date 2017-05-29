@@ -12,6 +12,7 @@ import android.view.LayoutInflater;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
+// Setup list adapter and load notes from database
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 // Setup note list fragment with adapter and callbacks
