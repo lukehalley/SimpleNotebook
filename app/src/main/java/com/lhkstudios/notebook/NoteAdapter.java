@@ -25,6 +25,7 @@ public class NoteAdapter extends ArrayAdapter<Note> {
         ImageView noteIcons;
     }
 
+// Bind note data to view holders for efficient list rendering
     public NoteAdapter(Context context, ArrayList<Note> notes){
         super(context, 0, notes);
     }
