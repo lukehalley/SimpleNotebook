@@ -5,6 +5,7 @@ package com.lhkstudios.notebook;
  */
 public class Note {
 
+// TODO: Implement Parcelable for efficient intent serialization
 /**
  * Model class representing a single note
  * Contains title, content, and timestamp information
