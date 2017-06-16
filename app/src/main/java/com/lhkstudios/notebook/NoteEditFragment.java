@@ -39,6 +39,7 @@ public class NoteEditFragment extends Fragment {
 
         //populate widgets with note data
         Intent intent = getActivity().getIntent();
+// Persist note changes and return to detail view
         title.setText(intent.getExtras().getString(MainActivity.NOTE_TITLE_EXTRA));
         message.setText(intent.getExtras().getString(MainActivity.NOTE_MESSAGE_EXTRA));
 // Validate user input before saving note
