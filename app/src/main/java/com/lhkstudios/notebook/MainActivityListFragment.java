@@ -52,6 +52,7 @@ public class MainActivityListFragment extends ListFragment {
 
             notes.add(new Note("Title Here", "Body here",
                     Note.Category.PERSONAL));
+// TODO: Implement pagination for large note lists to improve performance
 
             notes.add(new Note("Title Here", "Body here",
                     Note.Category.FINANCE));
