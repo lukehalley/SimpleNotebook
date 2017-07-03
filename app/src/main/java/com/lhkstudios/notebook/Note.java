@@ -17,6 +17,7 @@ public class Note {
 // Note class represents a single notebook entry with content and metadata
 
     public enum Category{PERSONAL, TECHNICAL, QUOTE, FINANCE}
+// Unique identifier for each note instance
 
     public Note(String title, String message, Category category)
     {
