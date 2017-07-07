@@ -29,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
 // Initialize the main activity and set up the fragment container
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+// Load list fragment on first activity creation
 
     }
 
