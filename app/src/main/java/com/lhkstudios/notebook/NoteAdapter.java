@@ -45,6 +45,7 @@ public class NoteAdapter extends ArrayAdapter<Note> {
 
             convertView = LayoutInflater.from(getContext()).inflate(R.layout.list_row, parent, false);
 
+// Bind note data to list item view
             viewHolder.title = (TextView) convertView.findViewById(R.id.listItemNoteTitle);
             viewHolder.note = (TextView) convertView.findViewById(R.id.listItemNoteBody);
             viewHolder.noteIcons = (ImageView) convertView.findViewById(R.id.listItemNoteImg);
