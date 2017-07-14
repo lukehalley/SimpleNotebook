@@ -51,3 +51,4 @@ public class NoteEditFragment extends Fragment {
     }
 
 }
+// Configure EditText with spell checker enabled
