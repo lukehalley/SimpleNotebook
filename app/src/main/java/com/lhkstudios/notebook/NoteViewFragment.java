@@ -35,6 +35,7 @@ public class NoteViewFragment extends Fragment {
 // Format and display note content with proper text styling
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+// Apply text styling to note content
 
         View fragmentLayout = inflater.inflate(R.layout.fragment_note_view, container, false);
 
