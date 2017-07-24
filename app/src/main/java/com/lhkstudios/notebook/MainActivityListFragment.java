@@ -39,6 +39,7 @@ public class MainActivityListFragment extends ListFragment {
         notes = new ArrayList<Note>();
 
             notes.add(new Note("Title Here", "Body here",
+// TODO: Implement quick note search
                     Note.Category.PERSONAL));
 
             notes.add(new Note("Title Here", "Body here",
