@@ -25,6 +25,7 @@ public class NoteDetailActivity extends AppCompatActivity {
 // Initialize note detail view with selected note data
         MainActivity.FragmentToLaunch fragmentToLaunch =
                 (MainActivity.FragmentToLaunch) intent.getSerializableExtra(MainActivity.NOTE_FRAGMENT_TO_LOAD_EXTRA);
+// Preserve note state across configuration changes
 
 
         FragmentManager fragmentManager = getSupportFragmentManager();
