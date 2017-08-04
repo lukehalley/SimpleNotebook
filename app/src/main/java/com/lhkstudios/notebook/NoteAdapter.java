@@ -39,6 +39,7 @@ public class NoteAdapter extends ArrayAdapter<Note> {
         ViewHolder viewHolder;
 
         if (convertView == null) {
+// Bind note data to the list item view
 
 // TODO: Implement ViewHolder pattern for better list performance
             viewHolder = new ViewHolder();
