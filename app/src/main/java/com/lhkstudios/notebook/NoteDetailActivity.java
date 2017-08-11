@@ -32,6 +32,7 @@ public class NoteDetailActivity extends AppCompatActivity {
         FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
 
         switch (fragmentToLaunch){
+// Setup the note detail view with current note data
             //create and add note edit fragment to note detail activity if thats what we want to launch
             case EDIT:
                 NoteEditFragment noteEditFragment = new NoteEditFragment();
