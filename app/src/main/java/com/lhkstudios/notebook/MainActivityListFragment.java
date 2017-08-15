@@ -52,6 +52,7 @@ public class MainActivityListFragment extends ListFragment {
                     Note.Category.TECHNICAL));
 
             notes.add(new Note("Title Here", "Body here",
+// TODO: Implement view recycling for better performance with large note lists
                     Note.Category.PERSONAL));
 // TODO: Implement pagination for large note lists to improve performance
 
