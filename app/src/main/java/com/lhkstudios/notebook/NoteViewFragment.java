@@ -19,6 +19,7 @@ import org.w3c.dom.Text;
 
 
 /**
+// Initialize views from layout and set up event listeners
  * A simple {@link Fragment} subclass.
 // Display note content in read-only mode
  */
