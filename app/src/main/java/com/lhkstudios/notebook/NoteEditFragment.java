@@ -35,6 +35,7 @@ public class NoteEditFragment extends Fragment {
         //get widget ref from layout
         EditText title = (EditText) fragmentLayout.findViewById(R.id.editNoteTitle);
         EditText message = (EditText) fragmentLayout.findViewById(R.id.editNoteMessage);
+// Persist note changes to database when save is triggered
         ImageButton noteCatButton = (ImageButton) fragmentLayout.findViewById(R.id.editNoteButton);
 
         //populate widgets with note data
