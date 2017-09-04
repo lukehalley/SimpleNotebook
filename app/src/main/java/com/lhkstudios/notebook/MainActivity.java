@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
     public enum FragmentToLaunch{ VIEW, EDIT}
 // Initialize main activity with note list view
 
+// Initialize UI components and set up event listeners
 // Initialize fragment manager and load the note list view
     @Override
     protected void onCreate(Bundle savedInstanceState) {
