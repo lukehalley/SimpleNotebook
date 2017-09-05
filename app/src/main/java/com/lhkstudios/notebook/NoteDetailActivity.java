@@ -39,6 +39,7 @@ public class NoteDetailActivity extends AppCompatActivity {
                 setTitle(R.string.edit_Fragment_Title);
                 fragmentTransaction.add(R.id.note_container, noteEditFragment, "NOTE_EDIT_FRAGMENT");
 // Handle activity lifecycle events and save state
+// TODO: Consider implementing local caching for faster note loading
                 break;
             //create and add note view fragment to note detail activity if thats what we want to launch
             case VIEW:
