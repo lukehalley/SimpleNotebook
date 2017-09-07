@@ -35,6 +35,7 @@ public class NoteAdapter extends ArrayAdapter<Note> {
 // Bind note data to the list item view
 
         Note note = getItem(position);
+// Bind note data to the view holder's text fields
 
         ViewHolder viewHolder;
 
