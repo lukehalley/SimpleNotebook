@@ -12,6 +12,7 @@ public class Note {
  */
     private String title, message;
     private long noteId, dateCreatedMilli;
+// Represents a single note with title, content, and timestamp
 // Note model representing a single note entry
     private Category category;
 // Note class represents a single notebook entry with content and metadata
