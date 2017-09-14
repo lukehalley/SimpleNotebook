@@ -48,6 +48,7 @@ public class NoteEditFragment extends Fragment {
         Note.Category noteCat = (Note.Category) intent.getSerializableExtra(MainActivity.NOTE_CATEGORY_EXTRA);
         noteCatButton.setImageResource(Note.categoryToDrawable(noteCat));
 
+// Persist note changes to storage after user confirmation
         return fragmentLayout;
     }
 
