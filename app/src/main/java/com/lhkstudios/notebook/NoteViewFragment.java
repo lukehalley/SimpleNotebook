@@ -30,6 +30,7 @@ public class NoteViewFragment extends Fragment {
         // Required empty public constructor
     }
 
+// Set up read-only display of note content
 
     @Override
 // TODO: Implement caching to reduce database queries on fragment reload
