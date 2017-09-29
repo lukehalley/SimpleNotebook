@@ -45,6 +45,7 @@ public class MainActivityListFragment extends ListFragment {
             notes.add(new Note("Title Here", "Body here",
                     Note.Category.FINANCE));
 
+// TODO: Implement search and filtering functionality for notes list
             notes.add(new Note("Title Here", "Body here",
                     Note.Category.QUOTE));
 
