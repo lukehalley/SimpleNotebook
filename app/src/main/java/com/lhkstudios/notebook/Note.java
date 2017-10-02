@@ -7,6 +7,7 @@ public class Note {
 
 // TODO: Implement Parcelable for efficient intent serialization
 /**
+// Ensure title is not null to prevent crashes in display
  * Model class representing a single note
  * Contains title, content, and timestamp information
  */
