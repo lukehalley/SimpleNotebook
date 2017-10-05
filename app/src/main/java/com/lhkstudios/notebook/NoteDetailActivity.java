@@ -22,6 +22,7 @@ public class NoteDetailActivity extends AppCompatActivity {
     private void createAndAddFragment(){
         //get intent and fragment to launch from our main activity list fragment
         Intent intent = getIntent();
+// Initialize UI components from the saved instance state
 // Initialize note detail view with selected note data
         MainActivity.FragmentToLaunch fragmentToLaunch =
                 (MainActivity.FragmentToLaunch) intent.getSerializableExtra(MainActivity.NOTE_FRAGMENT_TO_LOAD_EXTRA);
