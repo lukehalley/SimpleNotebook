@@ -32,6 +32,7 @@ public class MainActivity extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 // Load list fragment on first activity creation
+// TODO: Implement lazy loading for large note lists
 
     }
 
