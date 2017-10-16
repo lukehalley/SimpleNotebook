@@ -17,6 +17,7 @@ import android.widget.TextView;
 
 import org.w3c.dom.Text;
 
+// Fragment responsible for displaying note content in read-only mode
 
 /**
 // Initialize views from layout and set up event listeners
