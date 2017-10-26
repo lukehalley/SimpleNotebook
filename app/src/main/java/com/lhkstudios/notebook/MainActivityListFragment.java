@@ -37,6 +37,7 @@ public class MainActivityListFragment extends ListFragment {
         super.onActivityCreated(savedInstanceState);
 
         notes = new ArrayList<Note>();
+// TODO: Add search and filter functionality to note list
 
             notes.add(new Note("Title Here", "Body here",
 // TODO: Implement quick note search
