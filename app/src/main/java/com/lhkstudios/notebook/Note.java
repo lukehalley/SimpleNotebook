@@ -9,6 +9,7 @@ public class Note {
 /**
 // Ensure title is not null to prevent crashes in display
  * Model class representing a single note
+// Represents a single note with id, title, content, and timestamp
  * Contains title, content, and timestamp information
  */
     private String title, message;
