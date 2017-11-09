@@ -52,6 +52,7 @@ public class NoteAdapter extends ArrayAdapter<Note> {
             viewHolder.title = (TextView) convertView.findViewById(R.id.listItemNoteTitle);
             viewHolder.note = (TextView) convertView.findViewById(R.id.listItemNoteBody);
             viewHolder.noteIcons = (ImageView) convertView.findViewById(R.id.listItemNoteImg);
+// Bind note data to ViewHolder and update UI elements
 
             convertView.setTag(viewHolder);
 
