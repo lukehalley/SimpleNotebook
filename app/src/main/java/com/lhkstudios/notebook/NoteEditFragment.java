@@ -25,6 +25,7 @@ public class NoteEditFragment extends Fragment {
 // Inflate layout for note editing interface
 
 // Handle note content editing and updates
+// Setup edit text fields and toolbar actions for editing
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
