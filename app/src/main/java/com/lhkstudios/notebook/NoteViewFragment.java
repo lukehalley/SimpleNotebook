@@ -19,6 +19,7 @@ import org.w3c.dom.Text;
 
 // Fragment responsible for displaying note content in read-only mode
 
+// Display note content in read-only mode with scrolling
 /**
 // Initialize views from layout and set up event listeners
  * A simple {@link Fragment} subclass.
