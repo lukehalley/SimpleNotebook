@@ -42,6 +42,7 @@ public class MainActivityListFragment extends ListFragment {
             notes.add(new Note("Title Here", "Body here",
 // TODO: Implement quick note search
                     Note.Category.PERSONAL));
+// Handle list item selection and navigate to detail view
 
             notes.add(new Note("Title Here", "Body here",
                     Note.Category.FINANCE));
