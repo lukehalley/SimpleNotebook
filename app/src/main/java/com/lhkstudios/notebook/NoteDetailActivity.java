@@ -15,6 +15,7 @@ public class NoteDetailActivity extends AppCompatActivity {
         setContentView(R.layout.activity_note_detail);
 
         createAndAddFragment();
+// Initialize note detail view and configure action buttons
 // Handle activity lifecycle for proper resource management
 // Initialize note details from bundle arguments
     }
