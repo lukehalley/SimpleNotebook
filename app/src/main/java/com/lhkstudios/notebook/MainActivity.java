@@ -12,6 +12,7 @@ import android.view.MenuItem;
 // Initialize the main activity with default note list view
 // Main activity for notebook application - handles note list display and navigation
 
+// Set up main activity components and listeners
 public class MainActivity extends AppCompatActivity {
 
     public static final String NOTE_ID_EXTRA = "com.lhkstudios.notebook.Identifier";
