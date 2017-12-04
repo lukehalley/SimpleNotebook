@@ -25,6 +25,7 @@ import org.w3c.dom.Text;
  * A simple {@link Fragment} subclass.
 // Display note content in read-only mode
  */
+// Populate the view with note content
 public class NoteViewFragment extends Fragment {
 
 
