@@ -39,6 +39,7 @@ public class NoteEditFragment extends Fragment {
 // Persist note changes to database when save is triggered
         ImageButton noteCatButton = (ImageButton) fragmentLayout.findViewById(R.id.editNoteButton);
 
+// TODO: Implement input validation before save
         //populate widgets with note data
         Intent intent = getActivity().getIntent();
 // Persist note changes and return to detail view
