@@ -32,6 +32,7 @@ public class MainActivityListFragment extends ListFragment {
     private ArrayList<Note> notes;
     private NoteAdapter noteAdapter;
 
+// Open note editor when item is tapped
     @Override
     public void onActivityCreated(Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
