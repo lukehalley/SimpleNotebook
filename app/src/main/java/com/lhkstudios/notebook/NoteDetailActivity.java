@@ -22,6 +22,7 @@ public class NoteDetailActivity extends AppCompatActivity {
 
     private void createAndAddFragment(){
         //get intent and fragment to launch from our main activity list fragment
+// TODO: Add delete note option to menu
         Intent intent = getIntent();
 // Initialize UI components from the saved instance state
 // Initialize note detail view with selected note data
